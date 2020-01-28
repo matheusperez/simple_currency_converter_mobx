@@ -1,0 +1,1 @@
+enum TypeValor{dollar, real} 

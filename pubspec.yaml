@@ -1,0 +1,32 @@
+name: conversor_moeda
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_mobx: ^0.3.4
+  mobx: ^0.3.10
+  intl: ^0.16.1
+
+
+dev_dependencies:  
+  mockito: ^4.1.1
+  mobx_codegen:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+scripts: 
+  build: flutter packages pub run build_runner build
+  watch: flutter packages pub run build_runner watch
+  rebuild: flutter packages pub run build_runner watch --delete-conflicting-outputs
+  
+flutter:
+
+  uses-material-design: true
